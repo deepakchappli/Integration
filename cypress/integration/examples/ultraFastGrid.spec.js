@@ -21,6 +21,7 @@ describe("AppTest", () => {
             fully: true
         });
 
+		// Cypress will click the button.
         cy.get('#log-in').click()
 
         // Check the app page
