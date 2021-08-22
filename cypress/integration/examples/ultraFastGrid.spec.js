@@ -23,6 +23,8 @@ describe("AppTest", () => {
 
 		// Cypress will click the button.
         cy.get('#log-in').click()
+		
+		// it will not check the next page.
 
         // Check the app page
         cy.eyesCheckWindow({
