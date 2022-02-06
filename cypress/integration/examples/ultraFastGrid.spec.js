@@ -13,8 +13,8 @@ describe("AppTest", () => {
 
         // Call Open on eyes to initialize a test session
         cy.eyesOpen({
-            appName: 'Catch',
-            testName: 'Catch UFG',
+            appName: 'Catch ',
+            testName: 'Catch Github',
         })
 
         //cy.viewport('iPhone XR');
@@ -38,7 +38,7 @@ describe("AppTest", () => {
             });
 
 
-            cy.visit('https://www.catch.com.au/shop/clearance/?p=5');
+            cy.visit('https://www.catch.com.au/dyson');
             cy.pause();
             //cy.scrollTo('bottom')
             cy.eyesCheckWindow({
