@@ -42,7 +42,7 @@ describe("AppTest", () => {
             cy.pause();
             //cy.scrollTo('bottom')
             cy.eyesCheckWindow({
-                        //waitBeforeCapture: 4000,
+                        waitBeforeCapture: 7000,
                         tag: "Clearance Page",
                         target: 'window',
                         matchLevel: 'Layout',
