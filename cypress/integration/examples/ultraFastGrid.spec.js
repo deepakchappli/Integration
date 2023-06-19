@@ -13,8 +13,8 @@ describe("AppTest", () => {
 
         // Call Open on eyes to initialize a test session
         cy.eyesOpen({
-            appName: 'Catch ',
-            testName: 'Catch Github',
+            appName: 'Demo ',
+            testName: 'Github',
         })
 
         //cy.viewport('iPhone XR');
